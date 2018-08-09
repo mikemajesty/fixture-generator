@@ -4,14 +4,15 @@
   "description": "",
   "main": "src/server.js",
   "dependencies": {
-    "node": "^10.8.0",
+    "babel-preset-es2015-node5": "^1.2.0",
     "body-parser": "^1.15.1",
     "cors": "^2.8.4",
     "express": "4.14.0",
-    "babel-preset-es2015-node5": "^1.2.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
-    "gulp-nodemon": "^2.2.1"
+    "gulp-nodemon": "^2.2.1",
+    "node": "^10.8.0",
+    "request": "^2.87.0"
   },
   "devDependencies": {},
   "scripts": {
